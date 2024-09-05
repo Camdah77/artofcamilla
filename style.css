@@ -1,0 +1,42 @@
+/*Google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;600&family=Montserrat:ital,wght@0,400;0,700;1,500&display=swap');
+
+/*All pages:Margin & border */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*All pages:General styling  */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    /* All pages:Generic project styles */
+    color: #010101;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
+
+/* All pages: Header */
+header {
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #030303;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    justify-content: space-between;
+    align-items: baseline;
+    height:50px;
+    border-bottom: 6px double #64A0A0;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+}
