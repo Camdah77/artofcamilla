@@ -1,16 +1,17 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+<img src="assets/240616logo.webp">
 
-Welcome Camilla Dahlström,
-
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
-
-You can safely delete this README.md file or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **May 28, 2024**
-
-## Gitpod Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+Working Space for Art Gallery
 
 `python3 -m http.server`
+git config advice.addIgnoredFile false
+git add *
+git status
+git push 
+
+
+  <!-- Sale badge-->
+<div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
+
 
 A blue button should appear to click: _Make Public_,
 
