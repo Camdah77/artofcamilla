@@ -7,6 +7,7 @@ git config advice.addIgnoredFile false
 git add *
 git status
 git push 
+git commit -m "" 
 
 
   <!-- Sale badge-->
