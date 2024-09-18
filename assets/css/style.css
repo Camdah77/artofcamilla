@@ -61,9 +61,17 @@ header a {
 
 /* Navbar styles */
 
+h1{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 2vh;
+    margin-bottom: 4vh;
+    margin-left: 10vw;
+    font-size: medium;
+    color: #9e7e3b !important; /* Force this color to apply */
+}
+
 .navbar{
-    width: 100%
-    ;
+    width: 100%;
 }
 .navbar-nav .nav-item .nav-link {
     text-decoration: none;
@@ -77,9 +85,10 @@ header a {
 /* Hero section */
 #hero {
     height: 700px;
-    width: 100%;
-    background: no-repeat center center/cover;
-    text-align: center;
+    width: 100%; /* Make the hero image span the entire width */
+    background: url("../image/Hero_jessika.jpg") no-repeat center center/cover;
+    margin-bottom: 5vh;
+    background-size: cover; /* Ensure the background image covers the entire section */
     border-bottom: 6px double #9e7e3b;
 }
 
@@ -87,6 +96,7 @@ header a {
 form.d-flex {
     margin-right: 2vh;
 }
+ 
 
 footer{
     position: fixed;
