@@ -3,11 +3,13 @@
 Working Space for Art Gallery
 
 `python3 -m http.server`
-git config advice.addIgnoredFile false
-git add *
-git status
-git push 
-git commit -m "" 
+git config advice.addIgnoredFile false <br>
+git add *<br>
+git status<br>
+git push <br>
+git commit -m "" <br>
+
+COLOR: #9e7e3b<br>
 
 
   <!-- Sale badge-->
