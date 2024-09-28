@@ -130,6 +130,17 @@ form.d-flex {
     border-bottom: 2px solid #9e7e3b;
   }
 
+  .table a {
+    color: #000000; /* Set the desired color */
+    text-decoration: none;
+}
+
+.table a:hover {
+    color: #d3a65a; /* Optional hover effect */
+    text-decoration: underline;
+}
+
+
 footer{
     font-family: 'Montserrat', sans-serif;
     font-size: 12 px;
