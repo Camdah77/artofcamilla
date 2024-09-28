@@ -1,3 +1,6 @@
+/*Google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;600&family=Montserrat:ital,wght@0,400;0,700;1,500&display=swap');
+
 /* Margin & border */
 * {
     margin: 0;
@@ -46,7 +49,6 @@ header a {
 }
 
 .logotype {
-    margin-left: 2vh; 
     display: flex;
     align-items: center; /* Center the logo vertically */
 }
@@ -95,13 +97,38 @@ header a {
     margin-left: 10vw;
     color: #9e7e3b !important; /* Force this color to apply */
 }
+h1{
+    margin-left: 10vw;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    margin-top: 2vh;
+    padding-top: 5vh;
+    margin-bottom: 4vh;
+    margin-left: 10vw;
+    color: #9e7e3b !important; /* Force this color to apply */
+}
 
 /* Cart button */
 form.d-flex {
     margin-right: 2vh;
     color: #9e7e3b !important;
 }
- 
+ /* Table Exhibition.html */
+.table img {
+    max-width: 200px;
+    height: auto;
+    transition: opacity .3s ease 0s, transform .3s ease 0s;
+    transform: scale(1) rotate(0.001deg);
+  }
+  
+  table img:hover {
+    z-index: 10;
+    transform: scale(1.6) rotate(0.001deg);
+  }
+  .table tr {
+    border-bottom: 2px solid #9e7e3b;
+  }
 
 footer{
     font-family: 'Montserrat', sans-serif;
