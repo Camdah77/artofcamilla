@@ -115,6 +115,10 @@ form.d-flex {
     color: #9e7e3b !important;
 }
  /* Table Exhibition.html */
+
+.table{
+    padding-bottom: 5vh;
+}
 .table img {
     max-width: 200px;
     height: auto;
