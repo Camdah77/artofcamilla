@@ -143,8 +143,40 @@ form.d-flex {
     color: #d3a65a; /* Optional hover effect */
     text-decoration: underline;
 }
-
-
+/* Soldart.html */
+.gallery-title {
+    font-size: 36px;
+    color: #9e7e3b;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 70px;
+}
+.gallery-title:after {
+    content: "";
+    position: absolute;
+    width: 7.5%;
+    left: 46.5%;
+    height: 45px;
+    border-bottom: 1px solid #9e7e3b;
+}
+.filter-button {
+    font-size: 18px;
+    border: 1px solid #42B32F;
+    border-radius: 5px;
+    text-align: center;
+    color: #42B32F;
+    margin-bottom: 30px;
+}
+.filter-button:hover {
+    background-color: #42B32F;
+    color: #ffffff;
+}
+.port-image {
+    width: 100%;
+}
+.gallery_product {
+    margin-bottom: 30px;
+}
 footer{
     font-family: 'Montserrat', sans-serif;
     font-size: 12 px;
