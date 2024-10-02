@@ -201,3 +201,17 @@ footer{
     color: #fdfafa;
     padding-top: 4vh;
 }
+.filter-button {
+    background-color: #9e7e3b; /* Button background color */
+    color: white; /* Button font color */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* Hover effect */
+.filter-button:hover {
+    background-color: white; /* Change background to white */
+    color: #9e7e3b; /* Change font color to #9e7e3b */
+}
