@@ -108,6 +108,12 @@ h1{
     margin-left: 10vw;
     color: #9e7e3b !important; /* Force this color to apply */
 }
+h4{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    text-decoration: none;
+     color: #9e7e3b !important; /* Force this color to apply */
+}
 
 /* Cart button */
 form.d-flex {
