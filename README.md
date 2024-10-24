@@ -9,6 +9,14 @@ git status<br>
 git push <br>
 git commit -m "" <br>
 
+REACT APP
+Link: https://create-react-app.dev/docs/getting-started
+Commands
+npx create-react-app my-app
+cd my-app
+npm start
+
+
 COLOR: #9e7e3b<br>
 
 links
