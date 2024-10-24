@@ -12,9 +12,15 @@ git commit -m "" <br>
 REACT APP
 Link: https://create-react-app.dev/docs/getting-started
 Commands
-npx create-react-app my-app
+1.npx create-react-app gallery
+2. npm init react-app gallery
+3. yarn create react-app gallery
+4: Template Name: npx create-react-app my-app --template [template-name]
 cd my-app
+npm install
 npm start
+
+deploying: npm run build
 
 
 COLOR: #9e7e3b<br>
